@@ -1,7 +1,7 @@
 function wanthelp() {
-  location.replace("https://github.com/henriquewaisman/henriquewaisman.github.io/blob/main/foreignhtml/want.html")
+  location.replace("https://henriquewaisman.github.io/foreignhtml/want.html")
 }
 
 function wantohelp() {
-  location.replace("https://github.com/henriquewaisman/henriquewaisman.github.io/blob/main/foreignhtml/wanto.html")
+  location.replace("https://henriquewaisman.github.io/foreignhtml/wanto.html")
 }
