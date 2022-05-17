@@ -5,11 +5,35 @@
   <link rel="stylesheet" href="https://gitgub.com/henriquewaisman.github.io/foreigncss/wanto.css" type="text/css">
 </head>
 <body>
-
-
-
-
-
+<div>
+  <h1 id="title1">Insira seus dados:</h1>
+</div>
+<div class="flexbox">
+  <img src="/UVV/site/main/perfil.jpg" alt="perfil" id="personaimg"><br>
+<div id="data">
+  <br><div>Nome: <input type="text" name="nome" id="nome"></div>
+  <div>Idade: <input type="number" name="age" id="age"></div>
+  <div>Línguas Faladas: <input type="text" name="lang" id="lang"></div>
+  <div>Tempo de permanência: <input type="text" name="time" id="time"></div>
+  <br>
+  <div>Filhos (opcional): <input type="text" name="son" id="son"></div>
+  <div>Sexo: <input type="text" name="sex" id="sex"></div>
+  <div>Idade: <input type="number" name="sonage" id="sonage"></div>
+</div>
+  <div id="textbox">
+    Sobre você:<br><textarea name="about" id="about" cols="30" rows="10"></textarea>
+  </div>
+</div>
+<div id="inputimg">
+  <form action="/action_page.php">
+    <label for="img">Insira sua foto:</label><br>
+    <input type="file" id="img" name="img" accept="image/*"><br>
+    <input type="submit">
+  </form>
+</div>
+<div>
+  <button onclick="salvar()" id="savebutton">SALVAR</button>
+</div>
 <script src="https://gitgub.com/henriquewaisman.github.io/foreignjs/wanto.js"></script>
 </body>
 </html>
