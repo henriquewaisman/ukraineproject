@@ -1,7 +1,7 @@
 function wanthelp() {
-  location.replace("/UVV/site/foreignhtml/want.html")
+  location.replace("foreignhtml/want.html")
 }
 
 function wantohelp() {
-  location.replace("/UVV/site/foreignhtml/wanto.html")
+  location.replace("foreignhtml/wanto.html")
 }
