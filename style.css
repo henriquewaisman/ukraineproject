@@ -22,7 +22,7 @@
 }
 
 #flex2 {
-  display: flex;
+  display: inline-flex;
 }
 
 #wanthelp {
