@@ -25,11 +25,7 @@
   </div>
 </div>
 <div id="inputimg">
-  <form action="/action_page.php">
-    <label for="img">Insira sua foto:</label><br>
-    <input type="file" id="img" name="img" accept="image/*"><br>
-    <input type="submit">
-  </form>
+  <input type="file" id="img" name="img" accept="image/*" onchange="document.getElementById('personaimg').src = window.URL.createObjectURL(this.files[0])"><br>
 </div>
 <div>
   <button onclick="salvar()" id="savebutton">SALVAR</button>
