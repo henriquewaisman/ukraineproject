@@ -27,8 +27,9 @@
 <div id="inputimg">
   <input type="file" id="img" name="img" accept="image/*" onchange="document.getElementById('personaimg').src = window.URL.createObjectURL(this.files[0])"><br>
 </div>
-<div>
-  <button onclick="salvar()" id="savebutton">SALVAR</button>
+<div id="buttons">
+  <button onclick="salvar()" id="savebutton">SALVAR</button><br>
+  <a href="#Foo" onclick="redefinir()">Redefinir</a>
 </div>
 <script src="/foreignjs/wanto.js"></script>
 </body>
