@@ -19,7 +19,7 @@ function salvar(){
   localStorage.setItem("aboutext", about)
   localStorage.setItem("perfil", personaimg)
 
-  location.replace("/last/lastscreen.html")
+  location.replace("/foreignhtml/lastscreen.html")
 }
 
 function redefinir(){
