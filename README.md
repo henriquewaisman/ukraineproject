@@ -1,18 +1,20 @@
 # JavaSript
   
-## Script.js
-
-<pre>function wanthelp() {
+## script.js
+<pre>
+function wanthelp() {
   location.replace("https://henriquewaisman.github.io/foreignhtml/want.html")
 }
 function wantohelp() {
   location.replace("https://henriquewaisman.github.io/foreignhtml/wanto.html")
-}</pre>
+}
+</pre>
 
 >Nesta parte do código, são vinculados a dois botões, links de outras duas páginas HTML para o usuário identificar a opção que ele se melhor enquadra e ser direcionado a uma página de cadastro.
 
-## Foreignjs/want.js
-<pre>function salvar(){
+## foreignjs/want.js
+<pre>
+function salvar(){
   var nome = document.getElementById("nome").value
   var age = document.getElementById("age").value
   var lang = document.getElementById("lang").value
@@ -46,11 +48,12 @@ function redefinir(){
   document.getElementById('sonage').value = ''
   document.getElementById('about').value = ''
   document.getElementById('personaimg').src = '/perfil.jpg'
-}</pre>
+}
+</pre>
 
 >Após clicar no botão de "Preciso de Ajuda", o usuário é redirecionado para uma página onde há campos para o preenchimento de dados cadastrais. Após o preenchimento, o botão "SALVAR" vinculado a função "salvar()" armazena os dados no armazenamento local e leva o usuário para uma página de confirmação do recebimento dos dados. O link "Redefinir" vinculado a função "redefinir()" exclui os campos preenchidos voltando para o estado inicial dando a possibilidade dos campos serem preenchidos novamente com mais rapidez.
 
-##foreingjs/wanto.js
+## foreingjs/wanto.js
 <pre>
 function salvar(){
   var nome = document.getElementById("nome").value
