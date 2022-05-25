@@ -2,7 +2,14 @@
 <html lang="pt-BR">
 <head>
   <title>Preciso de Ajuda</title>
-  <link href="/foreigncss/want.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="/foreigncss/want.css" type="text/css">
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Preciso de Ajuda</title>
+  <link rel="stylesheet" href="/foreigncss/wanto.css" type="text/css">
 </head>
 <body>
 <div>
@@ -16,21 +23,24 @@
   <div>Línguas Faladas: <input type="text" name="lang" id="lang"></div>
   <div>Tempo de permanência: <input type="text" name="time" id="time"></div>
   <br>
-  <div>CPF: <input type="text" name="cpf" id="cpf"></div>
-  <div>Endereço: <input type="text" name="adress" id="adress"></div>
-  <div>Moradores: <input type="number" name="morador" id="morador"></div>
+  <div>Filhos (opcional): <input type="text" name="son" id="son"></div>
+  <div>Sexo: <input type="text" name="sex" id="sex"></div>
+  <div>Idade: <input type="number" name="sonage" id="sonage"></div>
 </div>
   <div id="textbox">
     Sobre você:<br><textarea name="about" id="about" cols="30" rows="10"></textarea>
   </div>
 </div>
 <div id="inputimg">
-  <input type="file" id="img" name="img" accept="image/*" onchange="document.getElementById('personaimg').src = window.URL.createObjectURL(this.files[0])"><br>    
+  <input type="file" id="img" name="img" accept="image/*" onchange="document.getElementById('personaimg').src = window.URL.createObjectURL(this.files[0])"><br>
 </div>
 <div id="buttons">
   <button onclick="salvar()" id="savebutton">SALVAR</button><br>
   <a href="#Foo" onclick="redefinir()">Redefinir</a>
 </div>
+<script src="/foreignjs/wanto.js"></script>
+</body>
+</html>
 <script src="/foreignjs/want.js"></script>
 </body>
 </html>
