@@ -16,19 +16,23 @@
   <div>Línguas Faladas: <input type="text" name="lang" id="lang"></div>
   <div>Tempo de permanência: <input type="text" name="time" id="time"></div>
   <br>
-  <div>Filhos (opcional): <input type="text" name="son" id="son"></div>
+  <div>Filhos (Sim/Não): <input type="text" name="son" id="son"></div>
   <div>Sexo: <input type="text" name="sex" id="sex"></div>
-  <div>Idade: <input type="number" name="sonage" id="sonage"></div>
+  <div>Idades: <input type="number" name="sonage" id="sonage"></div>
 </div>
   <div id="textbox">
     Sobre você:<br><textarea name="about" id="about" cols="30" rows="10"></textarea>
   </div>
 </div>
 <div id="inputimg">
-  <input name="photo" type="file" accept="image/*" onchange="document.getElementById('personaimg').src = window.URL.createObjectURL(this.files[0])">
+  <input type="file" id="img" name="img" accept="image/*" onchange="document.getElementById('personaimg').src = window.URL.createObjectURL(this.files[0])"><br>    
 </div>
 <div>
   <button onclick="salvar()" id="savebutton">SALVAR</button>
+</div>
+<div id="buttons">
+  <button onclick="salvar()" id="savebutton">SALVAR</button><br>
+  <a href="#Foo" onclick="redefinir()">Redefinir</a>
 </div>
 <script src="/foreignjs/want.js"></script>
 </html>
