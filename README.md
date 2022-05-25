@@ -51,7 +51,7 @@ function redefinir(){
 }
 </pre>
 
->Após clicar no botão de "Preciso de Ajuda", o usuário é redirecionado para uma página onde há campos para o preenchimento de dados cadastrais. Após o preenchimento, o botão "SALVAR" vinculado a função "salvar()" armazena os dados no armazenamento local e leva o usuário para uma página de confirmação do recebimento dos dados. O link "Redefinir" vinculado a função "redefinir()" exclui os campos preenchidos voltando para o estado inicial dando a possibilidade dos campos serem preenchidos novamente com mais rapidez.
+>Após clicar no botão de "Preciso de Ajuda", o usuário é redirecionado para uma página onde há campos para o preenchimento de dados cadastrais. Após o preenchimento, o botão "SALVAR" vinculado a função "salvar( )" armazena os dados no armazenamento local e leva o usuário para uma página de confirmação do recebimento dos dados. O link "Redefinir" vinculado a função "redefinir( )" exclui os campos preenchidos voltando para o estado inicial dando a possibilidade dos campos serem preenchidos novamente com mais rapidez.
 
 ## foreingjs/wanto.js
 <pre>
