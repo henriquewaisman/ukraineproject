@@ -46,8 +46,6 @@
 .personas {
   display: flex;
   flex-direction: row;
-
-  border-left: 25%;
 }
 
 .personasc {
