@@ -8,6 +8,9 @@ function salvar(){
   var sonage = document.getElementById("sonage").value
   var about = document.getElementById("about").value
   var personaimg = document.getElementById("personaimg").value
+  
+  personaimg = document.getElementById('personaimg')
+  imgData = getBase64Image(personaimg)
 
   localStorage.setItem("user", nome)
   localStorage.setItem("firstage", age)
@@ -17,7 +20,8 @@ function salvar(){
   localStorage.setItem("sex", sex)
   localStorage.setItem("secondage", sonage)
   localStorage.setItem("aboutext", about)
-  localStorage.setItem("perfil", personaimg)
+  localStorage.setItem("imgData", imgData)
+  
 
   location.replace("https://henriquewaisman.github.io/foreignhtml/lastscreen.html")
 }
@@ -32,4 +36,17 @@ function redefinir(){
   document.getElementById('sonage').value = ''
   document.getElementById('about').value = ''
   document.getElementById('personaimg').src = '/perfil.jpg'
+}
+
+function getBase64Image(img) {
+    var canvas = document.createElement("canvas");
+    canvas.width = img.width;
+    canvas.height = img.height;
+
+    var ctx = canvas.getContext("2d");
+    ctx.drawImage(img, 0, 0);
+
+    var dataURL = canvas.toDataURL("image/png");
+
+    return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
 }
