@@ -10,15 +10,13 @@
 }
 
 #box {
-  text-align: center;
-  width: 500px;
-  margin-left: 100px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #flex1 {
   text-align: center;
-  margin-left: 50%;
 }
 
 #flex2 {
