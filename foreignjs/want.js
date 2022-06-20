@@ -32,5 +32,5 @@ function redefinir(){
   document.getElementById('sex').value = ''
   document.getElementById('sonage').value = ''
   document.getElementById('about').value = ''
-  document.getElementById('personaimg').src = '/perfil.jpg'
+  document.getElementById('personaimg').src = 'https://henriquewaisman.github.io/ukraineproject/perfil.jpg'
 }
