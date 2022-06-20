@@ -31,5 +31,5 @@ function redefinir(){
   document.getElementById('adress').value = ''
   document.getElementById('morador').value = ''
   document.getElementById('about').value = ''
-  document.getElementById('personaimg').src = '/perfil.jpg'
+  document.getElementById('personaimg').src = 'https://henriquewaisman.github.io/ukraineproject/perfil.jpg'
 }
