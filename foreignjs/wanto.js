@@ -19,7 +19,7 @@ function salvar(){
   localStorage.setItem("aboutext", about)
   localStorage.setItem("perfil", personaimg)
 
-  location.replace("https://ukraineproject/lastscreen.html")
+  location.replace("https://henriquewaisman.github.io/ukraineproject/lastscreen.html")
 }
 
 function redefinir(){
