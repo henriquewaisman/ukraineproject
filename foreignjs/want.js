@@ -1,5 +1,5 @@
 function salvar(){
-  var nome = document.getElementById("nome").value
+  var name = document.getElementById("nome").value
   var age = document.getElementById("age").value
   var lang = document.getElementById("lang").value
   var time = document.getElementById("time").value
@@ -9,7 +9,7 @@ function salvar(){
   var about = document.getElementById("about").value
   var personaimg = document.getElementById("personaimg").value
 
-  localStorage.setItem("user", nome)
+  localStorage.setItem("user", name)
   localStorage.setItem("firstage", age)
   localStorage.setItem("languages", lang)
   localStorage.setItem("timestaying", time)
