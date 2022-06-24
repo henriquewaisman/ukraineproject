@@ -14,6 +14,7 @@ function wantohelp() {
 >Nesta parte do código, são vinculados a dois botões, links de outras duas páginas HTML para o usuário identificar a opção que ele se melhor enquadra e ser direcionado a uma página de cadastro.
 
 ## foreignjs/want.js
+<pre>
 function salvar(){
   var name = document.getElementById("nome").value
   var age = document.getElementById("age").value
