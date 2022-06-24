@@ -14,9 +14,8 @@ function wantohelp() {
 >Nesta parte do código, são vinculados a dois botões, links de outras duas páginas HTML para o usuário identificar a opção que ele se melhor enquadra e ser direcionado a uma página de cadastro.
 
 ## foreignjs/want.js
-<pre>
 function salvar(){
-  var nome = document.getElementById("nome").value
+  var name = document.getElementById("nome").value
   var age = document.getElementById("age").value
   var lang = document.getElementById("lang").value
   var time = document.getElementById("time").value
@@ -26,7 +25,7 @@ function salvar(){
   var about = document.getElementById("about").value
   var personaimg = document.getElementById("personaimg").value
 
-  localStorage.setItem("user", nome)
+  localStorage.setItem("user", name)
   localStorage.setItem("firstage", age)
   localStorage.setItem("languages", lang)
   localStorage.setItem("timestaying", time)
@@ -35,8 +34,9 @@ function salvar(){
   localStorage.setItem("secondage", sonage)
   localStorage.setItem("aboutext", about)
   localStorage.setItem("perfil", personaimg)
+  
 
-  location.replace("https://henriquewaisman.github.io/foreignhtml/lastscreen.html")
+  location.replace("https://henriquewaisman.github.io/ukraineproject/foreignhtml/lastscreen.html")
 }
 
 function redefinir(){
@@ -48,7 +48,7 @@ function redefinir(){
   document.getElementById('sex').value = ''
   document.getElementById('sonage').value = ''
   document.getElementById('about').value = ''
-  document.getElementById('personaimg').src = '/perfil.jpg'
+  document.getElementById('personaimg').src = 'https://henriquewaisman.github.io/ukraineproject/perfil.jpg'
 }
 </pre>
 
@@ -77,7 +77,7 @@ function salvar(){
   localStorage.setItem("aboutext", about)
   localStorage.setItem("perfil", personaimg)
 
-  location.replace("https://henriquewaisman.github.io/foreignhtml/lastscreen.html")
+  location.replace("https://henriquewaisman.github.io/ukraineproject/lastscreen.html")
 }
 
 function redefinir(){
@@ -89,7 +89,7 @@ function redefinir(){
   document.getElementById('adress').value = ''
   document.getElementById('morador').value = ''
   document.getElementById('about').value = ''
-  document.getElementById('personaimg').src = '/perfil.jpg'
+  document.getElementById('personaimg').src = 'https://henriquewaisman.github.io/ukraineproject/perfil.jpg'
 }
 </pre>
 
